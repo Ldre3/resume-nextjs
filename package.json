@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build && next export && react-scripts --openssl-legacy-provider build",
     "export": "next export .",
-    "start": "next start",
+    "start": "next start && react-scripts --openssl-legacy-provider start ",
     "analyze": "cross-env ANALYZE=1 next build"
   },
   "repository": {
