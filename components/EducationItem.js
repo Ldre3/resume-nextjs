@@ -2,22 +2,21 @@ import React from 'react'
 
 export default class EducationItem extends React.Component {
     render() {
-        let { color, name, time, gpa, major } = this.props
+        let { color, name, time, descripcion,small, smallFontSize} = this.props
+        const itemClass = small ? 'column is-5-desktop is-offset-3-desktop is-10-mobile is-offset-1-mobile' : 'column is-10 is-offset-1 is-6-desktop is-offset-3-desktop is-10-mobile is-offset-1-mobile';
+        const fontSizeClass = smallFontSize ? 'small-font-size' : '';
         return (
             <div className="columns wrapper">
-                <div className="column item is-10 is-offset-1 is-6-desktop is-offset-3-desktop is-10-mobile is-offset-1-mobile">
+                <div className={`column item ${itemClass}`}>
                     <div className="columns">
-                        <div className="column is-9 has-text-left school">
+                        <div className={`column is-9 has-text-left school ${fontSizeClass}`}>
                             <p>{time}</p>  
-                            <h4 className="name">
+                            <h4 className={`name ${fontSizeClass}`}>
                                 {name}
                             </h4>
-                            { major && <i>Major: {major}</i> }
+                            {descripcion}
                         </div>
-                        <div className="column is-3 has-text-right gpa">
-                            <p>GPA</p>
-                            <h4>{gpa}</h4>
-                        </div>
+
                     </div>
                 </div>
                 
@@ -39,9 +38,8 @@ export default class EducationItem extends React.Component {
                         font-size: 1.3em;
                         color: ${color};
                     }
-                    .gpa h4 {
-                        font-size: 1.8em;
-                        color: #e74c3c;
+                    .small-font-size {
+                        font-size: 0.6em;
                     }
                 `}</style>
             </div>

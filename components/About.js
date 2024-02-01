@@ -11,11 +11,11 @@ export default class About extends React.Component {
                     <div className="column has-text-right-tablet has-text-center is-12-mobile is-6-desktop">
                         <dl>
                             <dt>FULL NAME</dt>
-                            <dd>Mr. Nuttawut Anek</dd>
+                            <dd>Jorge Abrodes de la Rosa</dd>
                             <dt>EMAIL</dt>
-                            <dd>nutcs@hotmail.com</dd>
+                            <dd>j.abrodex@gmail.com</dd>
                             <dt>MOBILE NO.</dt>
-                            <dd>+6687-4809909</dd>
+                            <dd>652877446</dd>
                         </dl>
                     </div>
                     <div className="column has-text-left">
@@ -23,16 +23,15 @@ export default class About extends React.Component {
                     </div>
                 </div>
                 <div className="columns">
-                    <div className="column detail is-10 is-offset-1 is-6-desktop is-offset-3-desktop is-10-mobile is-offset-1-mobile">
-                        Hello, my name is <b>Nuttawut Anek</b>. 
-                        Now, I work as a Full-stack developer,
-                        but I think I prefer <b>front-end</b> because
-                        I like to work with <i>colors</i> and <i>code</i> together.
-                        I'll be so proud when my work is displayed on a screen
-                        and want every one to see it as well.
-                        Moreover, I love learning new skills like <i>ReactJS</i>, <i>AngularJS</i> or <i>VueJS </i> 
-                        because these make me feel so fun every times when I use.
-
+                    <div
+                        className="column detail is-10 is-offset-1 is-6-desktop is-offset-3-desktop is-10-mobile is-offset-1-mobile">
+                        Hello, my name is <b>Jorge Abrodes de la Rosa</b>.
+                        Now, Im studying Multiplatform Development
+                        but I enjoy <b>back-end</b> the most because
+                        i prefer working with <i>data</i>, <i>logic</i> and <i>databases</i>. <br></br>
+                        Currently, i know <i>Java</i> but im the process of learning <i>C#</i>. <br></br>
+                        I've also been working as a <b>volunteer</b> in a dog shelter for 6 years now.<br></br>
+                        I Have driver license and my own car.
                     </div>
                 </div>
                 <Interersts />
@@ -53,7 +52,8 @@ export default class About extends React.Component {
                     }
                     .mascot {
                         margin-left: 20px;
-                        width: 180px;
+                        width: 350px;
+                        height: 300px;
                     }
                     .detail {
                         font-size: 0.95em;

@@ -48,8 +48,10 @@ export default class Header extends React.Component {
                         </div>
                         <div className="columns">
                             <div className="column">
-                                <Button title="My GitHub" url="https://github.com/nutanek" />
-                                <Button title="My Works" url="https://www.indytheme.com" />                                
+                                <Button title="My GitHub" url="https://github.com/Ldre3" />
+                                <Button title="My Certifications" url="https://linktr.ee/ldre3" />
+                                <Button title="My Linkedin" url="https://www.linkedin.com/in/jorge-abrodes/" />
+                                <Button title="Send me an email" url="mailto:j.abrodex@gmail.com" />
                             </div>
                         </div>
                     </div>

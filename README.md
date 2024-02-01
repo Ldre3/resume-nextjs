@@ -1,19 +1,9 @@
 # Resume with NextJS
 
-Resume website with NextJS
+Resume website created with Next.js
 
-[**DEMO**](https://nut.indytheme.com)
-
-## Compilation
-**on development**
-```bash
-npm run dev
-```
-**on production**
-```bash
-npm run build
-```
+[WebSite Deployed on Vercel]()
 
 ## Authors
 
-* **NutAnek** -  [https://github.com/nutanek](https://github.com/nutanek)
+* Forked from [https://github.com/nutanek](https://github.com/nutanek) and edited it
