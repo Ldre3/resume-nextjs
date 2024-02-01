@@ -17,12 +17,6 @@ export default class SkillItem extends React.Component {
                         img {
                             margin-top: 30px;
                             max-width: 60px;
-                            -webkit-transition: -webkit-transform 0.5s ease-in-out;
-                            transition: transform 0.5s ease-in-out;
-                        }
-                        .circle:hover img {
-                            -webkit-transform: rotate(-720deg);
-                            transform: rotate(-720deg);
                         }
                         .bar {
                             border-color: ${color} !important;
@@ -32,13 +26,7 @@ export default class SkillItem extends React.Component {
                         }
                         .circle {
                             margin: 10px auto;
-                            -webkit-transition: -webkit-transform 0.5s ease-in-out;
-                            transition: transform 0.5s ease-in-out;
-                        }
-                        .circle:hover {
-                            -webkit-transform: rotate(360deg) scale(1.4);
-                            transform: rotate(360deg) scale(1.4);
-                            z-index: 999;
+                            
                         }
                     `}</style>
                 </div>
