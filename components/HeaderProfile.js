@@ -16,8 +16,8 @@ export default class HeaderBrace extends React.Component {
                     figure {
                         cursor: pointer;
                         margin: 0 auto;
-                        width: 300px;
-                        height: 300px;
+                        width: 500px;
+                        height: 500px;
                     }
                     @media screen and (max-width: 769px) {
                         figure {
@@ -30,6 +30,7 @@ export default class HeaderBrace extends React.Component {
                         transition: transform 1s ease-in-out;
                         -webkit-animation: flip 1s;
                         animation: flip 1s;
+
                     }
                     img:hover {
                         -webkit-transform: rotateY(360deg);

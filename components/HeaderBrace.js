@@ -26,6 +26,7 @@ export default class HeaderBrace extends React.Component {
                         font-size: 15em;
                         -webkit-animation: move 1s;
                         animation: move 1s;
+                        margin-top: 52px;
                     }
                     @keyframes move {
                         from {
