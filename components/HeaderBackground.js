@@ -88,7 +88,6 @@ export default class HeaderBackground extends React.Component {
                         retina_detect: true
                     }}
                     style={bgStyle}
-                    className="hero is-fullheight"
                 />
             )
         }
