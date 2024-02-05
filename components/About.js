@@ -28,8 +28,8 @@ export default class About extends React.Component {
                         Hello, my name is <b>Jorge Abrodes de la Rosa</b>.
                         Now, Im studying Multiplatform Development
                         but I enjoy <b>back-end</b> the most because
-                        i prefer working with <i>data</i>, <i>logic</i> and <i>databases</i>. <br></br>
-                        Currently, i know <i>Java</i> but im the process of learning <i>C#</i>. <br></br>
+                        I prefer working with <i>data</i>, <i>logic</i> and <i>databases</i>. <br></br>
+                        Currently, I know <i>Java</i> but im the process of learning <i>C#</i>. <br></br>
                         I've also been working as a <b>volunteer</b> in a dog shelter for 6 years now.<br></br>
                         I Have driver license and my own car.
                     </div>
