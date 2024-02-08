@@ -13,7 +13,7 @@ export default class About extends React.Component {
                             <dt>FULL NAME</dt>
                             <dd>Jorge Abrodes de la Rosa</dd>
                             <dt>EMAIL</dt>
-                            <dd>j.abrodex@gmail.com</dd>
+                            <dd>work@abrodesdev.com</dd>
                             <dt>MOBILE NO.</dt>
                             <dd>652877446</dd>
                         </dl>
