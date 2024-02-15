@@ -30,10 +30,9 @@ export default class HeaderBackground extends React.Component {
             left: 0,
             backgroundColor: this.props.color
         }
-
         if (this.state.windowWidth <= 769) {
             return (
-                <div style={bgStyle} className="hero is-fullheight"></div>                
+                <div style={bgStyle} className="hero is-fullheight"></div>
             )
         } else {
             return (

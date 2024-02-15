@@ -23,7 +23,7 @@ export default class Index extends React.Component {
             return (
                 <main>
                    <Header />
-                   <About />
+                    <About />
                    <Experiences />
                    <Education />
                    <Skills />

@@ -32,9 +32,12 @@ export default class Header extends React.Component {
 
     render() {
         let theme = themes[this.state.theme];
+        const estilo = {
+            padding: 0
+        }
         return (
             <section className="hero is-fullheight has-text-centered">
-                <div className="hero-body">
+                <div className="hero-body" style={estilo}>
                     <div className="container">
                         <div className="columns is-mobile">
                             <Brace type="left" color={theme.font}/>

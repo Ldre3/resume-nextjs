@@ -2,8 +2,11 @@ import React from 'react'
 
 export default class HeaderBrace extends React.Component {
     render() {
+        const estilo = {
+            padding: 0
+        }
         return (
-            <div className="column profile">
+            <div className="column profile" style={estilo}>
                 <figure className="image" onClick={()=>this.props.toggle()}>
                     <img src="/static/images/profile.png" />
                 </figure>
